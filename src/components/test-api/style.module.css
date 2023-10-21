@@ -1,0 +1,18 @@
+.cont {
+  width: 700px;
+}
+
+table {
+  width: 600px;
+  background: black;
+
+  color: black;
+  table-layout: fixed;
+}
+td,
+tr,
+th {
+  background: whitesmoke;
+  padding: 1px;
+  width: 50px;
+}

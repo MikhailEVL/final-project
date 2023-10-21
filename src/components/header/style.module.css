@@ -1,0 +1,36 @@
+.cont{
+background-color: black;
+height: 60px;
+display: flex;
+justify-content: center;
+}
+
+.nav{
+    width: 700px;
+    height: 100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.link {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    display: inline;
+}
+
+.link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s;
+}
+
+.link:hover::before {
+    width: 100%;
+}

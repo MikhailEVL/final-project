@@ -1,0 +1,54 @@
+.cont{
+   
+    width: 270px;
+    margin: 60px auto;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 21px;
+    padding: 30px 15px;
+    display: flex;
+    
+    justify-content: center;
+    
+}
+
+.inputlog{
+    outline: none;
+    width: 90%;
+    padding: 5px 10px;
+    border: none;
+    border: 2px solid black;
+    margin: 9px auto;
+    border-radius: 21px;
+    font-family: corbel;
+    transition: 1s;
+}
+.inputlog:focus{
+    border: 2px solid gray;
+    transition: 1s;
+}
+
+
+.title{
+    color: black;
+    text-align: center;
+    margin: 5px 10px;
+    font-size: 15px;
+    font-family: corbel;
+}
+
+.btn{
+    outline: none;
+    width: 100%;
+    padding: 5px 10px;
+    border: none;
+    border: 2px solid gray;
+    margin: 9px auto;
+    border-radius: 21px;
+    font-family: corbel;
+
+    transition: 3s;
+}
+.btn:hover{
+    border: 2px solid black;
+    transition: 3s;
+}

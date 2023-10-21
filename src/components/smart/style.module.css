@@ -1,0 +1,91 @@
+
+.pic{
+    width: 20px;
+    height: 20px;
+    vertical-align:middle;
+}
+
+.cont{
+   
+    width: 270px;
+    margin: 60px auto;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 21px;
+    padding: 30px 15px;
+   
+    
+  
+    
+}
+.inputlog{
+    outline: none;
+    width: 90%;
+    padding: 5px 10px;
+    border: none;
+    border: 2px solid black;
+    margin: 9px auto;
+    border-radius: 21px;
+    font-family: corbel;
+    transition: 1s;
+}
+.inputlog:focus{
+    border: 2px solid gray;
+    transition: 1s;
+}
+
+
+.title{
+    color: black;
+    text-align: center;
+    margin: 5px 10px;
+    font-size: 15px;
+    font-family: corbel;
+    vertical-align:middle;
+}
+
+.btn{
+    outline: none;
+    width: 100%;
+    padding: 5px 10px;
+    border: none;
+    border: 2px solid black;
+    margin: 9px auto;
+    border-radius: 21px;
+    font-family: corbel;
+
+    transition: 3s;
+}
+.btn:hover{
+    border: 2px solid gray;
+    transition: 3s;
+}
+
+.card{
+    outline: none;
+    width: 100%;
+    background-color: whitesmoke;
+    border: none;
+    border: 2px solid darkgrey;
+    margin: 9px auto;
+    border-radius: 10px;
+    font-family: corbel;
+display: flex;
+justify-content: space-between;
+    transition: 3s;
+}
+.picMap{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+.inputedit{
+    outline: none;
+    width: 70%;
+    padding: 5px 10px;
+    border: none;
+    border: 2px solid darkgray;
+    margin: 9px auto;
+    border-radius: 21px;
+    font-family: corbel;
+    transition: 1s;
+}
